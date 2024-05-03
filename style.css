@@ -1,0 +1,82 @@
+/* Global Settings */
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F4D04E;
+    font-size: 1.6rem;
+    font-family: "Figtree", sans-serif;
+}
+
+/* General Style */
+
+/* Card */
+
+.card {
+    background-color: white;
+    padding: 2.4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    border: solid #111111 0.1rem;
+    box-shadow: 1.6rem 1.6rem 0 0 black;
+}
+
+/* Card - Info */
+
+.info {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.info spam {
+    background-color: #F4D04E;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.info p:nth-child(2) {
+    font-size: 1.4rem;
+    color: #111111;
+    font-weight: bold;
+}
+
+.info h1 {
+    font-size: 2.4rem;
+    color: #F4D04E;
+    font-weight: 900;
+}
+
+.info p:nth-child(4) {
+    font-size: 1.6rem;
+    color: #7F7F7F;
+    width: 33.6rem;
+}
+
+/* Card - Author */
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
