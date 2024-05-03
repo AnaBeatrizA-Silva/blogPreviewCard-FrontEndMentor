@@ -6,4 +6,4 @@ Expectation:
 
 Reality:
 
-<img src="./img/blogPreviewCardFinal.png" alt="">
+<img src="./img/blogPreviewCardFinal.png">
